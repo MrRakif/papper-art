@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+button{
+    padding: 10px 70px;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 35px;
+    border: none;
+    color: red;
+    border-radius: 20px;
+    font-family:cursive;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button:active{
+    scale: 0.95;
+}
+
+@media(max-width: 600px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        padding: 8px 12px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+}

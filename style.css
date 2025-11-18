@@ -38,7 +38,7 @@ button:active{
     scale: 0.95;
 }
 
-@media(max-width: 600px){
+@media(max-width: 480px){
     main{
         display: flex;
         align-items: center;
@@ -49,4 +49,5 @@ button:active{
         font-size: 20px;
         border-radius: 5px;
     }
+
 }
